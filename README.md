@@ -120,3 +120,61 @@ TreeForge maps over 50 file extensions to emoji icons and Rich colours, includin
 
 ---
 
+
+## 🎬 Demo
+
+```
+╭─────────────────────────────────────────────────╮
+│  TreeForge  v2.0                                │
+│  Advanced interactive directory tree            │
+╰─────────────────────────────────────────────────╯
+
+📂  Project folder: ./my-project
+👁   Show hidden files/folders? No
+📁  Directories only? No
+⚖️   Show file sizes? Yes
+🎨  Use file-type icons? Yes
+🌈  Use syntax colours? Yes
+🔀  Sort entries by: name
+↕️   Limit max depth? Yes  →  Max depth: 3
+🚫  Edit ignore patterns? No
+💾  Export format: Save as Markdown
+    Output filename: project-tree.md
+
+ ──────────────────── Directory Tree ────────────────────
+
+📦 my-project/
+├── 📁 src/
+│   ├── 🐍 main.py  (4.21 KB)
+│   ├── 🐍 utils.py  (1.87 KB)
+│   └── 📁 components/
+│       ├── ⚛️  App.tsx  (2.10 KB)
+│       └── 🎨 styles.scss  (0.95 KB)
+├── 📁 tests/
+│   └── 🐍 test_main.py  (3.44 KB)
+├── 📋 package.json  (0.62 KB)
+├── 📋 pyproject.toml  (0.44 KB)
+├── 📝 README.md  (5.12 KB)
+└── 🔒 poetry.lock  (48.30 KB)
+
+ ──────────────────────── Summary ───────────────────────
+
+  Statistics                 Top 10 File Types
+ ──────────────────         ─────────────────────────────────────────────
+  Metric      Value          Extension   Count   Total Size   Avg Size
+ ──────────────────         ─────────────────────────────────────────────
+  Folders     3              🐍 .py         3      9.52 KB     3.17 KB
+  Files       8              📋 .toml       1      0.44 KB     0.44 KB
+  Symlinks    0              📝 .md         1      5.12 KB     5.12 KB
+  Total size  66.05 KB       🔒 .lock       1     48.30 KB    48.30 KB
+  Scan time   3.2 ms         ⚛️  .tsx        1      2.10 KB     2.10 KB
+ ──────────────────         ─────────────────────────────────────────────
+
+✔  Saved: /home/user/my-project/project-tree.md
+
+╭────────────────────────────────────────────────────────╮
+│  Done.  3 dirs · 8 files · 66.05 KB · 3 ms            │
+╰────────────────────────────────────────────────────────╯
+```
+
+
